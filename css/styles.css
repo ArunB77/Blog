@@ -1,0 +1,153 @@
+body{
+  background: #999b84;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.intro{
+  position:relative;
+  height: 100vh;
+  width: 100vw;
+  background: #262626;
+}
+
+header{
+  width: 100%;
+  height: 70px;
+  background-color: #262626;
+}
+
+span{
+  color: white;
+}
+
+ul{
+  padding-right: 25px;
+  width: auto;
+  float: right;
+  margin-top: 10px;
+}
+
+li{
+  display: inline-block;
+  padding: 15px 30px;
+}
+
+a{
+  text-align: center;
+  color: #16c79a;
+  text-decoration: none;
+  font-size: 1.5vw;
+}
+
+a:hover{
+  color: white;
+}
+
+.intro-name {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+}
+
+.intro-desc {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  padding-top: 100px;
+}
+
+#particles-js{
+  height: 80vh;
+  width: 100vw;
+  position: absolute;
+}
+
+h1 {
+  font-family: 'Lobster', cursive;
+  font-size: 75px;
+  color: #16c79a;
+}
+
+h3 {
+  color: white;
+}
+
+h4 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 18px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  overflow: hidden;
+  background: linear-gradient(90deg, #000, #16c79a, #000);
+  background-repeat: no-repeat;
+  background-size: 80%;
+  animation: animate 5s linear infinite;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: rgba(255,255,255,0.1);
+}
+@keyframes animate
+{
+  0%
+  {
+    background-position: -500%;
+  }
+  100%
+  {
+    background-position: 500%;
+  }
+}
+
+.about{
+  text-align: center;
+  padding-left: 10%;
+  padding-right: 10%;
+  width: 100vw;
+}
+
+.about-heading{
+  padding: 3% 10% 3% 10%;
+}
+
+.about-brief{
+  letter-spacing: 2px;
+  line-height: 1.8;
+  word-spacing: 10px;
+  color: black;
+}
+
+.skills img{
+  height: 10%;
+  width: 7%;
+  margin: 5% 3% 5% 3%;
+}
+
+.contact{
+  background: #262626;
+  text-align: center;
+  line-height: 5;
+  width: 100vw;
+}
+
+.contact-hire{
+  width: 100%;
+  display: inline;
+  letter-spacing: 2px;
+  line-height: 1.8;
+  word-spacing: 10px;
+  color: black;
+}
+
+.contact-hire img{
+  height: 5%;
+  width: 3%;
+  margin: 1% 2% 0.5% 2%;
+}
